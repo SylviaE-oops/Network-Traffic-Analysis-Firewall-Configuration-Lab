@@ -1,4 +1,4 @@
-# Network Security Labs
+# Network Traffic Analysis Lab
 
 ## Project Overview
 This lab focused on capturing and analyzing common network traffic between Windows 11 and Ubuntu virtual machines using Wireshark. I configured virtual networking, verified communication between systems, analyzed several network protocols, and modified firewall rules to observe how traffic changed in real time.
