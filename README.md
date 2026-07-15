@@ -183,8 +183,6 @@ Checked firewall status:
 ```bash
 sudo ufw status
 ```
-<img width="334" height="155" alt="sudo ufw status " src="https://github.com/user-attachments/assets/0711e82a-fd8d-48e3-bcb1-f11948e8eab0" />
-
 
 Edited:
 
