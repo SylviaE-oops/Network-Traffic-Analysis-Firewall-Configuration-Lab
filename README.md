@@ -48,15 +48,15 @@ Initially, both virtual machines were connected using VirtualBox's default NAT a
 
 | Adapter | IPv4 Address | Purpose |
 |----------|--------------|---------|
-| Ethernet | 192.168.56.101 | Host-Only |
-| Ethernet 2 | 10.0.3.15 | NAT |
+| Ethernet | 192.168.xx.xxx | Host-Only |
+| Ethernet 2 | 10.0.x.xx | NAT |
 
 ### Ubuntu
 
 | Adapter | IPv4 Address | Purpose |
 |----------|--------------|---------|
-| Ethernet | 192.168.56.102 | Host-Only |
-| Ethernet 2 | 10.0.3.15 | NAT |
+| Ethernet | 192.168.xx.xxx | Host-Only |
+| Ethernet 2 | 10.0.x.xx | NAT |
 
 ### Network Configuration
 
