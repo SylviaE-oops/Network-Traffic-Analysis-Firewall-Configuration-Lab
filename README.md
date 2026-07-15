@@ -86,7 +86,6 @@ hostname -I
 
 both systems were able to successfully communicate with each other.
 
-> 📷 *Insert screenshots of Windows and Ubuntu IP configuration.*
 
 ---
 
@@ -112,7 +111,10 @@ Observed:
 - ICMP Echo Replies
 - Internet traffic using the NAT adapter
 
-> 📷 *Insert Wireshark screenshot.*
+
+<img width="494" height="186" alt="ping www google com " src="https://github.com/user-attachments/assets/962e5a85-bbfe-4f55-8441-ff5ef533120a" />
+
+
 
 ---
 
