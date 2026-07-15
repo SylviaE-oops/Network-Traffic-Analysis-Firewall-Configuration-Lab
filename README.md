@@ -114,6 +114,8 @@ Observed:
 
 <img width="494" height="186" alt="ping www google com " src="https://github.com/user-attachments/assets/962e5a85-bbfe-4f55-8441-ff5ef533120a" />
 
+<img width="643" height="448" alt="reply and responds from ping www google com" src="https://github.com/user-attachments/assets/17b9d535-bdea-459d-97a9-d5f3ee796389" />
+
 
 
 ---
@@ -133,7 +135,8 @@ Observed:
 
 showing successful communication between both virtual machines.
 
-> 📷 *Insert screenshot.*
+<img width="443" height="212" alt="ping from windows11 to linux " src="https://github.com/user-attachments/assets/866e4b36-d65e-42a4-8877-ef9d0301e6c0" />
+
 
 ---
 
@@ -168,6 +171,9 @@ Wireshark showed:
 - ICMP Echo Request
 - ICMP Echo Reply
 
+<img width="418" height="335" alt="Lab 2 - continuous pings from Windows 11" src="https://github.com/user-attachments/assets/83d9d114-2664-4f07-a7d5-e170b67ebe0e" />
+
+
 ---
 
 ## Attempt 1 — UFW
@@ -177,6 +183,8 @@ Checked firewall status:
 ```bash
 sudo ufw status
 ```
+<img width="334" height="155" alt="sudo ufw status " src="https://github.com/user-attachments/assets/0711e82a-fd8d-48e3-bcb1-f11948e8eab0" />
+
 
 Edited:
 
@@ -225,13 +233,19 @@ To restore connectivity:
 sudo iptables -D INPUT -p icmp --icmp-type echo-request -j DROP
 ```
 
-> 📷 *Insert screenshots.*
+<img width="346" height="83" alt="Lab 2 - time in and time out" src="https://github.com/user-attachments/assets/aaade671-e4be-419b-962e-eb95911e45f4" />
+<img width="460" height="417" alt="Lab 2 - time out" src="https://github.com/user-attachments/assets/a9d23c97-d620-4a6f-b800-a06cdba1c895" />
+<img width="453" height="384" alt="Lab 2 - timed out comes back " src="https://github.com/user-attachments/assets/dcc98323-6558-4cd7-9198-df8282570d16" />
+
 
 ---
 
 # Lab 3: Observe SSH Traffic
 
 Initially, SSH connections failed.
+
+<img width="627" height="39" alt="Lab 3 - ssh doesn&#39;t connect" src="https://github.com/user-attachments/assets/f6de8cd4-b3f4-4d96-b2e0-44303d8bb3db" />
+
 
 Checking the service:
 
@@ -277,7 +291,8 @@ SSH traffic was visible in Wireshark, but the actual commands and responses were
 
 Unlike ICMP or DNS traffic, SSH protects the contents of the communication, making only packet metadata (such as TCP segments and packet sizes) visible.
 
-> 📷 *Insert Wireshark screenshot.*
+<img width="643" height="475" alt="Lab 3 - wireshark from ssh" src="https://github.com/user-attachments/assets/3af09282-649a-4cd3-bba8-9d30233063a7" />
+
 
 ---
 
@@ -296,7 +311,10 @@ Observed:
 
 Unlike SSH traffic, DNS queries and responses were readable in plain text, allowing me to identify the requested domain names and their corresponding IP addresses.
 
-> 📷 *Insert Wireshark screenshot.*
+<img width="401" height="470" alt="Lab 4 - powershell" src="https://github.com/user-attachments/assets/dd41ad39-db90-42c3-a677-7e5cec1c8744" />
+
+<img width="641" height="477" alt="Lab 4 - wireshark observe" src="https://github.com/user-attachments/assets/a14d1362-6530-4387-8372-7c6c17f6aa34" />
+
 
 ---
 
