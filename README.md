@@ -231,8 +231,10 @@ To restore connectivity:
 sudo iptables -D INPUT -p icmp --icmp-type echo-request -j DROP
 ```
 
-<img width="346" height="83" alt="Lab 2 - time in and time out" src="https://github.com/user-attachments/assets/aaade671-e4be-419b-962e-eb95911e45f4" />
+<img width="346" height="83" alt="Lab 2 - time in and time out" src="https://github.com/user-attachments/assets/966ebf76-e48c-4079-a212-fd10ef05bbce" />
+
 <img width="460" height="417" alt="Lab 2 - time out" src="https://github.com/user-attachments/assets/a9d23c97-d620-4a6f-b800-a06cdba1c895" />
+
 <img width="453" height="384" alt="Lab 2 - timed out comes back " src="https://github.com/user-attachments/assets/dcc98323-6558-4cd7-9198-df8282570d16" />
 
 
